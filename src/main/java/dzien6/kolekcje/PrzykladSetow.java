@@ -20,7 +20,7 @@ public class PrzykladSetow {
     stringList.add("Ala");
     stringList.add("Ala");
 
-    Set<String> stringSet = new TreeSet<>(stringList);
+    Set<String> stringSet = new LinkedHashSet<>(stringList);
     stringSet.add("nowy");
 
     //System.out.println(stringSet);
