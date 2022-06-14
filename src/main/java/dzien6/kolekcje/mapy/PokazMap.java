@@ -18,6 +18,7 @@ public class PokazMap {
     mapaAut.put(ford.getNrRejestracyjny(), ford);
     mapaAut.put(porshe.getNrRejestracyjny(), porshe);
 
+    //mapaAut.
     //System.out.println(mapaAut);
 
     //System.out.println(mapaAut.get("Ala"));
