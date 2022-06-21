@@ -8,9 +8,9 @@ import java.util.List;
 public class Main {
 
   public static void main(String[] args){
-    Pracownik swiezak = new Pracownik("Jan", "Kowalski", 2);
-    Pracownik janusz = new Pracownik("Janusz", "Kowalski", 15);
-    Pracownik areczek = new Pracownik("Arel", "Kowalski", 7);
+    Pracownik swiezak = new Pracownik("Jan", "Kowalski", 2, 124);
+    Pracownik janusz = new Pracownik("Janusz", "Kowalski", 15, 12);
+    Pracownik areczek = new Pracownik("Arel", "Kowalski", 7, 3);
 
     List<Pracownik> pracownicy = new ArrayList<>(Arrays.asList(swiezak, janusz, areczek));
 

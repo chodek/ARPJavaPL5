@@ -11,7 +11,6 @@ public class SupplierExample {
   }
 
 
-
   static void getStringValue(Supplier<String> supplier){
     System.out.println(supplier.get());
   }

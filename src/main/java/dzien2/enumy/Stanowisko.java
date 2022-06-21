@@ -1,8 +1,8 @@
 package dzien2.enumy;
 
 public enum Stanowisko {
-  SZARACZEK(2),
-  KIEROWNIK(3),
+  SZARACZEK(3),
+  KIEROWNIK(2),
   WLASCICIEL(1);
 
   private int priorytet;

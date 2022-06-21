@@ -5,11 +5,18 @@ public class Pracownik {
   private String imie;
   private String naziwsko;
   private Stanowisko stanowisko;
+  private int wiek;
 
-  public Pracownik(String imie, String naziwsko, int lataPracy){
+  public Pracownik(String imie, String naziwsko, int lataPracy, int wiek){
     this.imie = imie;
     this.naziwsko = naziwsko;
     this.stanowisko = Stanowisko.ustalStanowiskoNaPodstawieDoswiadczenia(lataPracy);
+
+    this.wiek = wiek;
+  }
+
+  public int getWiek(){
+    return wiek;
   }
 
   public String getImie(){
